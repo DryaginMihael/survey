@@ -1,0 +1,20 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  display: flex;
+  cursor: pointer;
+  align-content: stretch;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  border: 2px solid #cccccc;
+  background: #ffffff;
+}
+
+.button:hover {
+  background: #f8f8f8;
+}

@@ -1,0 +1,43 @@
+.page {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  min-height: 150px;
+  border-radius: 5px;
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+.heading {
+  color: #ff4d00;
+  text-align: left;
+  padding: 0 20px;
+}
+
+.block {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 5px;
+  border: 1px solid #3e5eda;
+  background: rgba(62, 94, 218, 0.02);
+  min-height: 100px;
+  flex-grow: 1;
+  margin: 5px;
+  box-sizing: border-box;
+}
+
+.block:hover {
+  cursor: pointer;
+  background: rgba(62, 94, 218, 0.05);
+}
+
+.addButton {
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  border: 1px solid #da683e;
+  line-height: 100%;
+  cursor: pointer;
+  align-self: center;
+}
